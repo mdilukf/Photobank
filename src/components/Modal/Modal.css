@@ -1,0 +1,24 @@
+@import url("https://unicons.iconscout.com/release/v2.1.9/css/unicons.css");
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900"); */
+
+dialog{
+    width: 700px;
+    height: auto;
+    margin: 10rem auto;
+    background-size: cover;
+    
+}
+@media (max-width: 1279px) and (min-width: 769px){
+    dialog{
+        width: 700px;
+        height: 700px;
+        
+    }
+}
+@media (max-width: 480px) and (min-width: 0px){
+    dialog{
+        width: 500px;
+        height: 500px;
+        
+    }
+}

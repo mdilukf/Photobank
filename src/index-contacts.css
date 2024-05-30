@@ -1,0 +1,119 @@
+/* контакты */
+.centr{
+    justify-content: center;
+    display: flex;
+}
+h1{
+    font-family: 'Book Antiqua', cursive;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: 130px;
+}
+.col-4{
+    text-align: center;
+    margin-top: 150px;
+}
+.content{
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    padding: 120px 70px;
+    width: 459px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Book Antiqua', cursive;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    font-family: 'Book Antiqua', cursive;
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+/* авторам */
+.spravki{
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    margin: 70px 40px 0 40px;
+    padding: 30px;
+}
+.spravki h2{
+    text-align: left;
+    word-break: break-all;
+}
+.spravki h3{
+    text-align: left;
+    font-size: 40px;
+}
+.spravki a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Book Antiqua', cursive;
+}
+@media (max-width: 1280px) and (min-width: 769px){
+    h2{
+        font-size: 30px;
+    }
+    .content{
+        padding: 90px 40px;
+        width: 459px;
+        height: 400px;
+        margin-left: 6%;
+    }
+}
+@media (max-width: 1555px) and (min-width: 1281px){
+    h2{
+        font-size: 42px;
+    }
+}
+@media (max-width: 768px) and (min-width: 481px){
+    .col-4{
+        text-align: center;
+        margin-top: 150px;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) and (min-width: 0px){
+    h2{
+        font-size: 25px;
+    }
+    .col-4{
+        text-align: center;
+        margin-top: 150px;
+        width: 100%;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .content{
+        padding: 70px 20px;
+        width: 359px;
+        height: 300px;
+        margin-left: 8%;
+    }
+    .spravki h3{
+        text-align: left;
+        font-size: 20px;
+    }
+    .spravki a{
+        color: white;
+        font-size: 23px;
+        font-family: 'Book Antiqua', cursive;
+    }
+    h1{
+        font-size: 40px;
+    }
+}

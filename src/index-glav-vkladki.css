@@ -1,0 +1,1066 @@
+/* о нас */
+.jumbotron3 {
+    background-image: url("./img/o-nas.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-top: -130px;
+}
+.content-o-nas{
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    padding: 120px 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto auto 50px;
+}
+.content-o-nas-1{
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto auto 50px;
+}
+.content-prais{
+    border: 2px solid rgb(255, 255, 255, 0.3);
+    padding: 120px 70px;
+}
+.carusel{
+    width: 100%;
+    height:auto;
+}
+.container {
+    width: 60%;
+    margin: 2rem auto; 
+    height: 100%;
+}
+   
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.gallery__item--2 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--3 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.o-nas-h1{
+    font-family: 'Book Antiqua', cursive;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+}
+/* портфолио */
+.portvolioimg{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: 'none';
+    display: block;
+    margin: 50px auto;
+    align-items: center;
+    background: #111230;
+}
+.linkportvolio{
+    color: white;
+    margin-bottom: 20px;
+    background: #111230;
+    font-size: 30px;
+}
+.poisk{
+    margin-top: 50px;
+    font-size: 30px;
+}
+/* галерея */
+.galerei{
+    background: #ffffff;
+    border-radius: 20px;
+}
+.galereifoto{
+    margin-top: 100px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 26px 7px rgba(255, 255, 255, 0.2);
+
+    background: #111230;
+}
+.galereifoto p{
+    background: #111230;
+}
+.price {
+    font-size: 30px;
+    background: #111230;
+}
+.titlefoto{
+    padding-top: -20px;
+    padding-left: 30px;
+    font-size: 35px;
+    background: #111230;
+    word-break: break-all;
+
+}
+.titlefotodiv{
+    background: #111230;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.discriptionfoto{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #111230;
+    word-break: break-all;
+}
+.fotowithgalerei{
+    width: "500px";
+    background: 'none';
+    padding-left: 3%;
+    padding-top: 20px;
+    background: #111230;
+}
+.form-control {
+    background: rgba(0, 0, 0, 0.505);
+    border: none;
+    font-family: 'Book Antiqua', cursive;
+    font-style: italic;
+    color: white;
+}
+.btn-galeri{
+    --bs-btn-color: white;
+    font-family: 'Book Antiqua', cursive;
+    font-style: italic;
+    background-image: linear-gradient(116.0deg, #6665df 17%, #74209f 82%);
+    border: none;
+    font-size: 30px ;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+
+}
+.control-galerei{
+    width: 400px;
+    padding: 10px;
+    background: #ffffffba;
+    color: black;
+}
+.Auth-form-galeri {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.custom-galerei{
+    border: 2px solid rgba(255, 255, 255, 0.464);
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background-color: #111230;
+}
+.custom-galerei:hover{
+    box-shadow: 0px 1px 26px -4px #ffffff;
+      
+}
+.container-div{
+    object-fit: cover;
+    width: 400px;
+    height: 275px;
+}
+.container-div-3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #111230;
+
+}
+
+.marcer{
+    background: #ffffff32;
+    position: absolute;
+    width: 63%;
+    height: 70%;
+    margin-left:-40%
+}
+.marcer1{
+    background: #ffffff32;
+    position: absolute;
+    width: 63%;
+    height: 70%;
+}
+.information{
+    background: #ffffff8d;
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    margin-left: 67%;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Book Antiqua', cursive;
+    font-size: 30px;
+
+}
+.information ul{
+    background: none;
+    list-style-type: none;
+}
+.information li{
+    background: none;
+}
+.galereimasonry{
+    width: 1830px;
+}
+/* личный кабинет фотографа*/
+.selectfoto{
+    margin-top: 200px;
+    margin-bottom: -100px;
+    width: "100%";
+    display: "block";
+    cursor: 'pointer';
+    background: none;
+}
+.imgavatar{
+    width: 100px;
+    height: 300px;
+    object-fit: 'cover';
+    background: 'none';
+    float: 'left';
+}
+.fotowith{
+    width: "500px";
+    background: 'none';
+    margin-top: 150px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.lich-polzovat{
+    font-size: 45px;
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 0px;
+
+}
+.lich-polzovat-h1{
+    font-size: 45px;
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+.lichkabinet img{
+    width: 30%;
+    height: 50%;
+    float: left;
+    padding: 20px 20px;
+    margin-right: 20px;
+    background-size: cover;
+}
+.lichkabinet ul{
+    list-style-type: none; 
+}
+
+.lichkabinet h1{
+    display: inline-block;
+}
+.lichkabinet span{
+    margin-left: 100px;
+    font-family: 'Book Antiqua', cursive;
+    font-size: 35px;
+    font-style: italic;
+}
+.osnova-kabinet {
+    list-style-type: none; 
+    padding-top: 1%;
+}
+.lich-button{
+    margin-top: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lich-button button{
+    margin-left: 30px;
+}
+.cartins-kabinet{
+    margin-top: 19%;
+}
+.shop-car{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 400px;
+    height: auto;
+    background: white;
+
+}
+.div-cost{
+    background-color: #ffffffc3;
+    border-radius: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    margin: 13% 20px 3% 20px;
+    font-family: 'Book Antiqua', cursive;
+    font-size: 30px;
+    
+}
+.div-cost p{
+    padding-top: 4%;
+    padding-left: 5%;
+    color: black;
+}
+.div-cost img{
+    padding: 20px 0 0 20px;
+    background:none;
+    width: 20%;
+    height: auto;
+}
+.div-cost span{
+    background: none;
+    color: black;
+    padding-top: 10%;
+    margin-left: 40%;
+}
+.div-cost ul{
+    background: none;
+    color: black;
+    list-style-type: none; 
+    margin-left: -21%;
+    margin-top: 12%;
+}
+.div-cost li{
+    background: none;
+    color: black;
+
+}
+.foto-imort{
+    background-color: #ffffffc3;
+    border-radius: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    margin: 16% 20px 3% 20px;
+    font-family: 'Book Antiqua', cursive;
+}
+.form-foro-import{
+    background: none;
+}
+.input-foto{
+    margin: 10px 0 0 50px;
+    width: 350px;
+}
+.form-group{
+    background: none;
+}
+.form-label{
+    background-color: #ffffff00;
+    color: black;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dop-info{
+    margin-left: 50px;
+    background-color: #ffffff00;
+    color: black;
+}
+.input-foto1{
+    margin: 10px 0 0 50px;
+    height: 100px;
+    width: 350px;
+    
+}
+.input-foto2{
+    margin: 10px 0 0 50px;
+    width: 160px;
+    margin-top: 50px;
+    margin-left: 0;
+}
+.input-foto3{
+    margin: 10px 0 0 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.price_range{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+.avatardiv{
+    margin-bottom: 50px;
+}
+.ssalka{
+    background: #ffffff94;
+    color: "black";
+    border-radius: 13px;
+    width: 370px;
+    font-size: 30px;
+}
+.ulfotograf{
+    margin-bottom: 100px;
+}
+/* личный кабинет пользователя */
+
+.lichkabinet-polzovatel h1{
+    display: inline-block;
+    
+}
+.lichkabinet-polzovatel span{
+    margin-left: 100px;
+    font-family: 'Book Antiqua', cursive;
+    font-size: 35px;
+    font-style: italic;
+}
+.lichkabinet-polzovatel ul{
+    list-style-type: none;
+    padding-left: -50px; 
+}
+.lichkabinet-polzovatel{
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+.lich-fotograf{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 0px;
+    padding-left: 30px;
+
+}
+
+/* портфолио */
+.osnova-portfolio{
+    margin: 50px;
+}
+.portvolio img{
+    width: 30%;
+    height: 50%;
+    float: left;
+    padding: 20px 20px;
+    margin-right: 20px;
+    background-size: cover;
+    margin-left: 50px;
+}
+.osnova-portfolio {
+    list-style-type: none; 
+    padding-top: 1%;
+}
+.portvolio ul{
+    list-style-type: none; 
+}
+.portvolio span{
+    margin-left: 100px;
+    font-family: 'Book Antiqua', cursive;
+    font-size: 35px;
+    font-style: italic;
+}
+.portvolio h1{
+    display: inline-block;
+}
+.cartins-portvolio{
+    margin-top: 50%;
+}
+.Auth-form-container{
+    border-radius: 20px;
+}
+ .Auth-form-title{
+    margin-top: 5%;
+    background-color: #ff060600;
+    width: 700px;
+    align-items: center;
+    color: black;
+}
+.dispion {
+    background-color: #ffffffb2;
+    width: 700px;
+    height: auto;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+.dispionA {
+    background-color: #ffffffb2;
+    width: 700px;
+    height: auto;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+.Auth-form-content label{
+   background: none;
+   color: black;
+   margin-left: 5%;
+}
+.Auth-form-content input{
+    color: black;
+    margin-left: 3%;
+    width: 90%;
+
+}
+.Auth-form-content input[type="checkbox"]{
+    background: #6665df;
+    margin-left: 3%;
+    height: 26px;
+    margin-left: -38%;
+
+}
+.vchod{
+    width: 400px;
+    margin-left: 20%;
+}
+.position{
+    background: none;
+    padding-bottom: 50px;
+}
+.positionA{
+    background: none;
+    padding-bottom: 50px;
+}
+.reg{
+    margin-left: 10%;
+}
+.portvoliomasonry{
+    margin-left: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* разные дисплеи */
+@media (max-width: 1800px) and (min-width: 1556px){
+    .masor{
+        padding: 20px;
+        width: 1330px;
+    }
+   
+}
+@media (max-width: 1555px) and (min-width: 1281px) {
+    .position{
+        background: none;
+        padding-bottom: 30px;
+    }
+    .positionA{
+        background: none;
+        padding-bottom: 50px;
+    }
+    .content-o-nas{
+        padding: 10px 70px;
+        margin: 100px auto auto 50px;
+        width: 700px;
+        font-size: 20px;
+    }
+    .fotowithgalerei{
+        display: flex;
+        flex-direction: row;
+        place-content:stretch center;
+        box-sizing: border-box;
+        gap: 20px;
+        margin-left: 50px;
+        width: 100%;
+    }
+    .portvoliomasonry{
+        
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .discriptionfoto{
+        padding-left: 30px;
+        padding-right: 25px;
+        background: #111230;
+        word-break: break-all;
+    }
+    .photos{
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 1280px) and (min-width: 769px){
+    .avatardiv{
+        margin-bottom: 50px;
+    }
+    .lich-button{
+        margin-top: 8%;
+    }
+    .content-o-nas{
+        padding: 40px 40px;
+        align-items: center;
+        margin: 100px auto auto 50px;
+        width: 500px;
+    }
+    .portvolioimg{
+        width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+        background: 'none';
+        display: block;
+        margin: 50px auto;
+        align-items: center;
+        background: #111230;
+    }
+    .titlefoto{
+        padding-left: 20px;
+        font-size: 24px;
+        word-break: break-all;
+
+    }
+    .titlefotodiv{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .linkportvolio{
+        font-size: 20px;
+    }
+    .position{
+        background: none;
+        padding-bottom: 30px;
+    }
+    .positionA{
+        background: none;
+        padding-bottom: 50px;
+    }
+    .dispion {
+        background-color: #ffffffb2;
+        width: 700px;
+        height: auto;
+        margin-left: 8%;
+        border-radius: 20px;
+    }
+    .dispionA {
+        background-color: #ffffffb2;
+        width: 700px;
+        height: auto;
+        margin-left: 8%;
+        border-radius: 20px;
+    }
+    .Auth-form-title{
+        margin-top: 5%;
+        background-color: #ff060600;
+        width: 700px;
+        align-items: center;
+        color: black;
+    }
+    .portvoliomasonry{
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .discriptionfoto{
+        padding-left: 20px;
+        padding-right: 15px;
+        background: #111230;
+        word-break: break-all;
+    }
+    .photos{
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 9;
+    }
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 10;
+    }
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .o-nas-h1{
+
+        margin-top: 6%;
+    }
+}
+@media (max-width: 768px) and (min-width: 481px){
+    .position{
+        background: none;
+        padding-bottom: 30px;
+    }
+    .positionA{
+        background: none;
+        padding-bottom: 50px;
+    }
+    .lichkabinet span{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .lich-polzovat{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .lich-polzovat-h1{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .ssalka{
+        width: 270px;
+        font-size: 25px;
+        margin-left: -50px;
+    }
+    .ulfotograf{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .lich-button{
+        margin-top: 13%;
+        width: 500px;
+        margin-left: 8%;
+    }
+    .masonry{
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    .content-o-nas-1{
+        margin: 100px 20px auto 20px;
+    }
+    .content-o-nas{
+        margin: 100px 20px auto 20px;
+        width: 500px;
+        padding: 50px 20px;
+    }
+    .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 9;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 10;
+    }
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .o-nas-h1{
+        margin-top: 50px;
+    }
+    .portvolioimg{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        background: 'none';
+        display: block;
+        margin: 50px auto;
+        align-items: center;
+        background: #111230;
+    }
+    .titlefoto{
+        font-size: 24px;
+        word-break: break-all;
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+    .titlefotodiv{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .linkportvolio{
+        font-size: 20px;
+        word-break: break-all;
+    }
+    .dispion {
+        background-color: #ffffffb2;
+        width: 700px;
+        height: 400px;
+        margin-left: 4%;
+        border-radius: 20px;
+    }
+    .dispionA {
+        background-color: #ffffffb2;
+        width: 700px;
+        height: auto;
+        margin-left: 4%;
+        border-radius: 20px;
+    }
+    .portvoliomasonry{
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .discriptionfoto{
+        padding-left: 15px;
+        padding-right: 15px;
+        background: #111230;
+        word-break: break-all;
+    }
+    .photos{
+        margin-right: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 480px) and (min-width: 0px){
+    .lich-polzovat{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .lichkabinet span{
+        margin-left: 15px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .ssalka{
+        width: 270px;
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .ulfotograf{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .lich-polzovat-h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .lich-button{
+        margin-top: 35%;
+        width: 500px;
+        margin-left: 16%;
+        background: none;
+    }
+    .input-foto{
+        margin: 10px 0 0 20px;
+        width: 350px;
+    }
+    .masonry{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form-control {
+        width: 250px;
+    }
+    .price_range{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        flex-direction: column;
+    }
+    .content-o-nas{
+        padding: 10px 70px;
+        margin: 100px auto auto 50px;
+        width: 700px;
+        font-size: 20px;
+    }
+    .jumbotron3 {
+        height: 500px;
+    }
+    .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 9;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 10;
+    }
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .o-nas-h1{
+        margin-top: 12%;
+        font-size: 40px;
+        margin-left: 5%
+    }
+    .content-prais{
+        padding: 50px 50px;
+        margin-left: 50px;
+    }
+    .galerei{
+        margin-left: -40px;
+        width: 300px;
+    }
+    .portvolioimg{
+        width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+        margin: 20px auto;
+
+    }
+    .titlefoto{
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 12px;
+        word-break: break-all;
+
+    }
+    .titlefotodiv{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .linkportvolio{
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .galereifoto p{
+       font-size: 10px;
+    }
+    .container-div{
+        object-fit: cover;
+        width: 270px;
+        height: 165px;
+    }
+    .dispion {
+        background-color: #ffffffb2;
+        width: 300px;
+        height: auto;
+        margin-left: 9%;
+        border-radius: 20px;
+    }
+    .dispionA {
+        background-color: #ffffffb2;
+        width: 300px;
+        height: auto;
+        margin-left: 9%;
+        border-radius: 20px;
+    }
+    .Auth-form-content label{
+        background: none;
+        color: black;
+        margin-left: 5%;
+     }
+     .Auth-form-content input{
+         color: black;
+         margin-left: 3%;
+         width: 90%;
+     
+     }
+     .Auth-form-content input[type="checkbox"]{
+         background: #6665df;
+         margin-left: 3%;
+         height: 20px;
+         margin-left: -38%;
+     
+     }
+     .vchod{
+         width: 200px;
+         margin-left: 20%;
+     }
+     .position{
+         background: none;
+         padding-bottom: 30px;
+     }
+     .positionA{
+         background: none;
+         padding-bottom: 50px;
+     }
+     .Auth-form-title{
+        margin-top: 5%;
+        background-color: #ff060600;
+        width: 300px;
+        align-items: center;
+        color: black;
+    }
+    .input-foto5{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .portvoliomasonry{
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .discriptionfoto{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 5px;
+        background: #111230;
+        word-break: break-all;
+    }
+    .control-galerei{
+        width: 200px;
+        padding: 10px;
+        margin-bottom: -15%;
+        background: #ffffffba;
+        color: black;
+    }
+    .photos{
+        margin-right: 0px;
+    }
+    .lichkabinet-polzovatel span{
+        margin-left: 10%;
+        font-family: 'Book Antiqua', cursive;
+        font-size: 35px;
+        font-style: italic;
+    }
+    .lichkabinet-polzovatel{
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+}
