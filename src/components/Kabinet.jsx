@@ -14,7 +14,7 @@ export default function Kabinet() {
     setSessionId(session);
     if (session) {
       axios
-        .get("http://localhost:5000/checkSession", {
+        .get("https://collection.cleverapps.io/checkSession", {
           params: { sessionId: session },
         })
         .then((res) => {

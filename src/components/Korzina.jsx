@@ -12,7 +12,7 @@ export default function Korzina(props) {
     const zip = new JSZip();
     const promises = props.cartItems.map((element) =>
       axios
-        .get(`http://localhost:5000/uploadsimg/${element.img}`, {
+        .get(`https://collection.cleverapps.io/uploadsimg/${element.img}`, {
           responseType: "arraybuffer",
         })
         .then((response) => {
@@ -33,7 +33,7 @@ export default function Korzina(props) {
         link.download = "images.zip";
         link.click();
         axios
-          .put("http://localhost:5000/cart_pay", {
+          .put("https://collection.cleverapps.io/cart_pay", {
             user_id: props.user.userId,
           })
           .then((res) => {
@@ -53,7 +53,7 @@ export default function Korzina(props) {
 
   const handleDelete = (id) => {
     axios
-      .delete("http://localhost:5000/delete_cart", { params: { id } })
+      .delete("https://collection.cleverapps.io/delete_cart", { params: { id } })
       .then((response) => {
         if (response.data.success) {
           props.fetchedCart(props.user.sessionId);
@@ -79,7 +79,7 @@ export default function Korzina(props) {
                   id={element.id}
                 >
                   <img
-                    src={"http://localhost:5000/uploadsimg/" + element.img}
+                    src={"https://collection.cleverapps.io/uploadsimg/" + element.img}
                     className="img-fluid w-100 h-100 object-fit-cover "
                   />
                   <span style={{background: 'none', marginTop: '10px'}}>{element.title}</span>

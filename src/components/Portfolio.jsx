@@ -32,7 +32,7 @@ export default function Portfolio() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/selectportvolio")
+      .get("https://collection.cleverapps.io/selectportvolio")
       .then((res) => {
         setPortvolio(
           res.data.data.map((item, i) => {
@@ -40,7 +40,7 @@ export default function Portfolio() {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsportvolio/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsportvolio/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -72,7 +72,7 @@ export default function Portfolio() {
   document.title = "Портфолио";
   const test = () => {
     axios
-      .get("http://localhost:5000/poisk", { params: { poist } })
+      .get("https://collection.cleverapps.io/poisk", { params: { poist } })
       .then((res) => {
         setSelectpoisk(
           res.data.data.map((item, i) => {
@@ -80,7 +80,7 @@ export default function Portfolio() {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/poisk/${item.img}`}
+                    src={`https://collection.cleverapps.io/poisk/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />

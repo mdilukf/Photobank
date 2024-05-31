@@ -233,7 +233,7 @@ export default function Registration() {
   const [message, setMessage] = useState(Cookies.get("session"));
 
   const test = () => {
-    axios.get('http://localhost:5000/').then(res => {
+    axios.get('https://collection.cleverapps.io/').then(res => {
       //console.log(res.data.data);
       // console.log(res.data.data[0].email);
       setUser(res.data.data);
@@ -247,7 +247,7 @@ export default function Registration() {
       // console.log(err);
     })
     axios
-      .get("http://localhost:5000/user", {
+      .get("https://collection.cleverapps.io/user", {
         params: {
           name,
           fulname,
@@ -269,7 +269,7 @@ export default function Registration() {
         console.log(err.response.data.message);
       });
     axios
-      .get("http://localhost:5000/login", { params: { email, password } })
+      .get("https://collection.cleverapps.io/login", { params: { email, password } })
       .then((res) => {
         setMessage(res.data.message);
         Cookies.set("session", res.data.sessionId);
@@ -288,7 +288,7 @@ export default function Registration() {
     setSessionId(session);
     if (session) {
       axios
-        .get("http://localhost:5000/checkSession", {
+        .get("https://collection.cleverapps.io/checkSession", {
           params: { sessionId: session },
         })
         .then((res) => {

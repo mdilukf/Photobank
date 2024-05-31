@@ -18,7 +18,7 @@ export default function Portfolio(props) {
   const handleAdd = (id) => {
     console.log(props.user);
     axios
-      .post("http://localhost:5000/add_to_cart", { user_id: props.user.userId, id })
+      .post("https://collection.cleverapps.io/add_to_cart", { user_id: props.user.userId, id })
       .then((response) => {
         console.log(response);
       })
@@ -51,7 +51,7 @@ export default function Portfolio(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/selectimg")
+      .get("https://collection.cleverapps.io/selectimg")
       .then((res) => {
         setPortvolio(
           res.data.data.map((item, i) => {
@@ -59,7 +59,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimg/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimg/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -92,7 +92,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
       axios
-      .get("http://localhost:5000/selectimgbeauty")
+      .get("https://collection.cleverapps.io/selectimgbeauty")
       .then((res) => {
         setSelectimagesbeauty(
           res.data.data.map((item, i) => {
@@ -100,7 +100,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimgbeauty/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimgbeauty/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -133,7 +133,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
       axios
-      .get("http://localhost:5000/selectimgeat")
+      .get("https://collection.cleverapps.io/selectimgeat")
       .then((res) => {
         setSelectimageseat(
           res.data.data.map((item, i) => {
@@ -141,7 +141,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimgeat/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimgeat/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -174,7 +174,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
       axios
-      .get("http://localhost:5000/selectimganimals")
+      .get("https://collection.cleverapps.io/selectimganimals")
       .then((res) => {
         setSelectimagesanimals(
           res.data.data.map((item, i) => {
@@ -182,7 +182,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimganimals/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimganimals/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -215,7 +215,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
       axios
-      .get("http://localhost:5000/selectimgpipls")
+      .get("https://collection.cleverapps.io/selectimgpipls")
       .then((res) => {
         setSelectimagespipls(
           res.data.data.map((item, i) => {
@@ -223,7 +223,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimgpipls/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimgpipls/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -256,7 +256,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
     axios
-      .get("http://localhost:5000/selectimgsity")
+      .get("https://collection.cleverapps.io/selectimgsity")
       .then((res) => {
         setSelectimagessity(
           res.data.data.map((item, i) => {
@@ -264,7 +264,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimgsity/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimgsity/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -297,7 +297,7 @@ export default function Portfolio(props) {
         console.log(err);
       });
     axios
-      .get("http://localhost:5000/selectimgaesthetics")
+      .get("https://collection.cleverapps.io/selectimgaesthetics")
       .then((res) => {
         setSelectimagesaesthetics(
           res.data.data.map((item, i) => {
@@ -305,7 +305,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/uploadsimgaesthetics/${item.img}`}
+                    src={`https://collection.cleverapps.io/uploadsimgaesthetics/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
@@ -342,7 +342,7 @@ export default function Portfolio(props) {
   document.title = "Галерея";
   const test = () => {
     axios
-      .get("http://localhost:5000/poiskimg", { params: { poist } })
+      .get("https://collection.cleverapps.io/poiskimg", { params: { poist } })
       .then((res) => {
         setSelectpoisk(
           res.data.data.map((item, i) => {
@@ -350,7 +350,7 @@ export default function Portfolio(props) {
               <>
                 <div className="galereifoto">
                   <img
-                    src={`http://localhost:5000/poiskimg/${item.img}`}
+                    src={`https://collection.cleverapps.io/poiskimg/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />

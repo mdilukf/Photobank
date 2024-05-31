@@ -36,7 +36,7 @@ function App() {
 
   const fetchedCart = (sessionId) => {
     axios
-      .get("http://localhost:5000/cart", { params: { sessionId: sessionId } })
+      .get("https://collection.cleverapps.io/cart", { params: { sessionId: sessionId } })
       .then((response) => {
         if (response.data.success) {
           setCartItems(response.data.data);
@@ -53,7 +53,7 @@ function App() {
     setSessionId(session);
     if (session) {
       axios
-        .get("http://localhost:5000/checkSession", {
+        .get("https://collection.cleverapps.io/checkSession", {
           params: { sessionId: session },
         })
         .then((res) => {

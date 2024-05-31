@@ -57,7 +57,7 @@ export default function Header() {
 
   const test = () => {
     axios
-      .get("http://localhost:5000/")
+      .get("https://collection.cleverapps.io/")
       .then((res) => {
 
         setUser(res.data.data);

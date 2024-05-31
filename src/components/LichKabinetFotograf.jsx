@@ -279,7 +279,7 @@ export default function LichKabinetPolzovat() {
     setSessionId(session);
     if (session) {
       axios
-        .get("http://localhost:5000/checkSession", {
+        .get("https://collection.cleverapps.io/checkSession", {
           params: { sessionId: session },
         })
         .then((res) => {
@@ -301,13 +301,13 @@ export default function LichKabinetPolzovat() {
 
   // useEffect(()=> {
   axios
-    .get("http://localhost:5000/selectfoto", { params: { userId } })
+    .get("https://collection.cleverapps.io/selectfoto", { params: { userId } })
     .then((res) => {
       setPhotos(
         res.data.data.map((item, i) => {
           return (
             <img
-              src={`http://localhost:5000/uploads/${item.img}`}
+              src={`https://collection.cleverapps.io/uploads/${item.img}`}
               alt=""
               className="fotowith"
             />
@@ -319,13 +319,13 @@ export default function LichKabinetPolzovat() {
       console.log(err);
     });
   axios
-    .get("http://localhost:5000/selectfotoavatar", { params: { userId } })
+    .get("https://collection.cleverapps.io/selectfotoavatar", { params: { userId } })
     .then((res) => {
       setPhotosavatar(
         res.data.data.map((item, i) => {
           return (
             <img
-              src={`http://localhost:5000/uploadsAvatar/${item.img}`}
+              src={`https://collection.cleverapps.io/uploadsAvatar/${item.img}`}
               alt=""
               className="imgavatar"
             />
@@ -366,7 +366,7 @@ export default function LichKabinetPolzovat() {
 
     try {
       const response = await axios
-        .post("http://localhost:5000/upload", formData, {
+        .post("https://collection.cleverapps.io/upload", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
@@ -394,7 +394,7 @@ export default function LichKabinetPolzovat() {
 
     try {
       const response = await axios
-        .post("http://localhost:5000/uploadAvatar", formData, {
+        .post("https://collection.cleverapps.io/uploadAvatar", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
@@ -418,7 +418,7 @@ export default function LichKabinetPolzovat() {
 
     try {
       const response = await axios
-        .post("http://localhost:5000/uploadUpdateAvatar", formData, {
+        .post("https://collection.cleverapps.io/uploadUpdateAvatar", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
@@ -433,7 +433,7 @@ export default function LichKabinetPolzovat() {
 
   const testfoto = () => {
     axios
-      .get("http://localhost:5000/inputfoto", {
+      .get("https://collection.cleverapps.io/inputfoto", {
         params: { userId, name, fulname, number, sity, print, portvolio },
       })
       .then((res) => {
