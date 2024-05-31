@@ -17,7 +17,7 @@ const { connected } = require("process");
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://collection.cleverapps.io",
     credentials: true, // если в запросе используются куки или заголовки аутентификации,
     allowedHeaders: "Content-Type,Authorization",
   })
