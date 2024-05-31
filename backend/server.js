@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = 8080;
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
 const filemulter = require("../backend/middleware/multer");
@@ -31,7 +31,7 @@ var pool = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "",
-  database: "fotobank",
+  database: "bkkxa19yrctlh4imbdeo",
   multipleStatements: true,
 });
 
