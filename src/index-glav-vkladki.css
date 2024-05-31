@@ -533,7 +533,10 @@
     margin-left: 3%;
     height: 26px;
     margin-left: -38%;
-
+}
+.photos{
+    margin-right: 0px;
+    padding-right: 40px;
 }
 .vchod{
     width: 400px;
