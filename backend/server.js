@@ -23,13 +23,7 @@ app.use(
   })
 );
 //  УРаааааа, я забыл тебе парсер json поставить , поэтому post не работал как надо, хах
-var pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "bkkxa19yrctlh4imbdeo",
-  multipleStatements: true,
-});
+var pool = mysql.createPool('mysql://uulnhlcrfebauyqn:kHuR6CHFSqH1XLACNGXL@bkkxa19yrctlh4imbdeo-mysql.services.clever-cloud.com:3306/bkkxa19yrctlh4imbdeo');
 
 app.get("/", (req, res) => {
   pool.query(`SELECT * FROM users`, (error, results) => {
