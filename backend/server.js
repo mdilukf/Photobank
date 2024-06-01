@@ -34,7 +34,7 @@ var pool = mysql.createPool({
 
 // ты должна отправлять билд реакта app.get("/") - вот тут , лучше сделай приватный репозиторий с backnend и его загружай на клевер
 
-app.use(express.static(path.join(__dirname, '../build/')));
+app.use(express.static(path.join(__dirname, './build/')));
 
 app.get("/", (req, res) => {  // pool.query(`SELECT * FROM users`, (error, results) => {
   //   if (error) throw error;
@@ -42,7 +42,7 @@ app.get("/", (req, res) => {  // pool.query(`SELECT * FROM users`, (error, resul
   //     res.status(200).json({ success: false, data: results });
   //   }
   // });
-  res.status(404).sendFile(path.join(__dirname, '../build', 'index.html')); 
+  res.status(404).sendFile(path.join(__dirname, './build', 'index.html')); 
 });
 // сдесь ?
 //  то есть отдельно залить бек и фронт, на два разных репозитория в git и по отдельности подключить к cleveru?

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca8ac6a8.css",
+    "main.js": "/static/js/main.198c52b3.js",
+    "static/media/estetic.jpg": "/static/media/estetic.36f9b9274c9baa5e55fc.jpg",
+    "static/media/fotograf.jpg": "/static/media/fotograf.5f975594d3f1ba4cfb7f.jpg",
+    "static/media/chivot (1).jpg": "/static/media/chivot (1).f37fb64622b626c95b4a.jpg",
+    "static/media/div-container.jpg": "/static/media/div-container.a73aa614b809ea18a1d4.jpg",
+    "static/media/город.jpg": "/static/media/город.023deecb34e4e1bbb7fd.jpg",
+    "static/media/eda.jpg": "/static/media/eda.6e14bab86286524c9284.jpg",
+    "static/media/home-top.jpg": "/static/media/home-top.3ccdb14007e53c1cc2db.jpg",
+    "static/media/rubachci.jpg": "/static/media/rubachci.6654610f324916ea479a.jpg",
+    "static/media/pole.jpg": "/static/media/pole.441d3532cd5a53ba4580.jpg",
+    "static/media/3.jpg": "/static/media/3.640501a0336955eab4d0.jpg",
+    "static/media/4.jpg": "/static/media/4.d4b92789b6bcbdbce407.jpg",
+    "static/media/o-nas.jpg": "/static/media/o-nas.a1168e630f17e1e3e969.jpg",
+    "static/media/ludi.jpg": "/static/media/ludi.4a3c46e5a4d2cc16b38b.jpg",
+    "index.html": "/index.html",
+    "main.ca8ac6a8.css.map": "/static/css/main.ca8ac6a8.css.map",
+    "main.198c52b3.js.map": "/static/js/main.198c52b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca8ac6a8.css",
+    "static/js/main.198c52b3.js"
+  ]
+}
