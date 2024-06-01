@@ -14,8 +14,23 @@ const path = require("path");
 const { rejects } = require("assert");
 const { connected } = require("process");
 
+
+app.use(
+  cors({
+    origin: "https://collection.cleverapps.io",
+    credentials: true, // если в запросе используются куки или заголовки аутентификации,
+    allowedHeaders: "Content-Type,Authorization",
+  })
+);
 //  УРаааааа, я забыл тебе парсер json поставить , поэтому post не работал как надо, хах
-var pool = mysql.createPool('mysql://uulnhlcrfebauyqn:kHuR6CHFSqH1XLACNGXL@bkkxa19yrctlh4imbdeo-mysql.services.clever-cloud.com:3306/bkkxa19yrctlh4imbdeo');
+var pool = mysql.createPool({
+  host: "bkkxa19yrctlh4imbdeo-mysql.services.clever-cloud.com",
+  user: "uulnhlcrfebauyqn",
+  password: "kHuR6CHFSqH1XLACNGXL",
+  database: "bkkxa19yrctlh4imbdeo",
+  port: 3306,
+  multipleStatements: true,
+});
 
 app.get("/", (req, res) => {
   pool.query(`SELECT * FROM users`, (error, results) => {
