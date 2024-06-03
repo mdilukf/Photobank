@@ -94,7 +94,8 @@
     display: block;
     margin: 50px auto;
     align-items: center;
-    background: #ffffff49;
+    z-index: 5;
+    background: #ffffff70;
 }
 .linkportvolio{
     color: white;
