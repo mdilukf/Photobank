@@ -888,7 +888,7 @@ app.put("/cart_pay", (req, res) => {
   });
 });
 app.use((req, res) => {
-  if (req.url != '/' && req.url != '/gallery' && req.url != '/portfolio' && req.url != '/about' && req.url != '/reference' && req.url != '/author' && req.url != '/contacts' && req.url != '/registration' && req.url != '/registrationuser' && req.url != '/kabinet' && req.url != '/korzina') {
+  if (req.url != '/' && req.url != '/gallery' && req.url != '/portfolio' && req.url != '/about' && req.url != '/reference' && req.url != '/author' && req.url != '/contacts' && req.url != '/registration' && req.url != '/registrationuser' && req.url != '/kabinet' && req.url != '/korzina' && req.url != '/gallery/красота' && req.url != '/gallery/еда' && req.url != '/gallery/животные' && req.url != '/gallery/люди' && req.url != '/gallery/город' && req.url != '/gallery/эстетика' && req.url != '/personal_account' && req.url != '/personal_account_fotograf' &) {
   console.log(req.url);
   res.status(404).sendFile(path.join(__dirname, './build', '404.html'));
   }
