@@ -890,8 +890,8 @@ app.put("/cart_pay", (req, res) => {
 app.use((req, res) => {
   if (req.url != '/' && req.url != '/gallery' && req.url != '/portfolio' && req.url != '/about' && req.url != '/reference' && req.url != '/author' && req.url != '/contacts' && req.url != '/registration' && req.url != '/registrationuser' && req.url != '/kabinet' && req.url != '/korzina') {
   console.log(req.url);
-  res.status(404).sendFile(path.join(__dirname, '../build', '404.html'));
+  res.status(404).sendFile(path.join(__dirname, './build', '404.html'));
   }
   else
-  res.status(404).sendFile(path.join(__dirname, '../build', 'index.html'));
+  res.status(404).sendFile(path.join(__dirname, './build', 'index.html'));
   });

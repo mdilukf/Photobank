@@ -956,6 +956,7 @@
 
     }
     .titlefoto{
+        padding-left: 10px;
         padding-right: 5px;
         font-size: 12px;
         word-break: break-all;
@@ -968,6 +969,7 @@
     }
     .linkportvolio{
         font-size: 11px;
+        padding-left: 10px;
     }
     .galereifoto p{
        font-size: 10px;
