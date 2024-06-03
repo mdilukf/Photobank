@@ -12,7 +12,7 @@ export default function About() {
           <div className="container">
             <h1 className="display-4"> Фотобак collection </h1>
             <h4 className="display-5">
-              Огромное количество стоковых фотографий по приемлимым ценам{" "}
+              Огромное количество стоковых фотографий по приемлемым ценам{" "}
             </h4>
           </div>
         </div>
