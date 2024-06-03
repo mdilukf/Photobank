@@ -53,7 +53,7 @@ export default function Portfolio() {
                     <p></p>
                     {item.sity}
                     <p>{item.print}</p>
-                    <p className="disp">Для просмотра портфолиа, перейдите по ссылке</p>
+                    <p className="disp">Ссылка на портфолио фотографа</p>
                     <a href={`${item.link}`} className="linkportvolio">
                       {item.link}
                     </a>
