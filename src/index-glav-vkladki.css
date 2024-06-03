@@ -82,13 +82,19 @@
 /* портфолио */
 .portvolioimg{
     width: 100%;
+    background: 'none';
+    display: block;
+    align-items: center;
+    background: #111230;
+}
+.whithediv{
+    width: 100%;
     padding-left: 30px;
     padding-right: 30px;
-    background: 'none';
     display: block;
     margin: 50px auto;
     align-items: center;
-    background: #111230;
+    background: #ffffff49;
 }
 .linkportvolio{
     color: white;

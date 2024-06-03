@@ -58,11 +58,13 @@ export default function Portfolio(props) {
             return (
               <>
                 <div className="galereifoto">
+                  <div className="whithediv">
                   <img
                     src={`https://collection.cleverapps.io/uploadsimg/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
+                  </div>
                   <Card.Title className="titlefoto">{item.title}</Card.Title>
                   <Card.Text className="discriptionfoto">
                     {item.description}
@@ -99,11 +101,13 @@ export default function Portfolio(props) {
             return (
               <>
                 <div className="galereifoto">
+                <div className="whithediv">
                   <img
                     src={`https://collection.cleverapps.io/uploadsimgbeauty/${item.img}`}
                     alt=""
                     className="portvolioimg"
                   />
+                  </div>
                   <Card.Title className="titlefoto">{item.title}</Card.Title>
                   <Card.Text className="discriptionfoto">
                     {item.description}
